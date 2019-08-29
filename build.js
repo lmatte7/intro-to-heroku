@@ -1,2 +1,2 @@
 const testVar = process.env.TEST_TOKEN;
-process.stdout.write(testVar);
+process.stdout.write("Test var is: "+testVar);
