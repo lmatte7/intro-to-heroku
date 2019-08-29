@@ -4,10 +4,8 @@
     "node": "6.11.1"
   },
   "scripts": {
-    "dev": "node node_modules/nodemon/bin/nodemon.js server.js",
     "build": "node build.js",
     "start": "node server",
-    "postinstall": "gulp build"
   },
   "devDependencies": {
     "nodemon": "latest"
