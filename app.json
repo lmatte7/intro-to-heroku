@@ -6,7 +6,11 @@
   ],
   "repository": "https://github.com/lmatte7/intro-to-heroku",
   "addons": [
-    "heroku-postgresql"
+    "heroku-postgresql",
+    "heroku-postgresql",
+    {
+      "plan": "heroku-redis:premium-0"
+    }
   ],
   "env": {
     "TEST_TOKEN": "CANYASEEMEATBUILD"
