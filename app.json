@@ -5,6 +5,9 @@
     "app-cloud"
   ],
   "repository": "https://github.com/lmatte7/intro-to-heroku",
+  "scripts": {
+        "postdeploy": "touch test.file"
+  },
   "addons": [
     "heroku-postgresql"
   ]
