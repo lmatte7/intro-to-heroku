@@ -4,6 +4,9 @@
   "keywords": [
     "app-cloud"
   ],
+  "scripts": {
+    "postdeploy": "echo $TEST_TOKEN"
+  },
   "repository": "https://github.com/lmatte7/intro-to-heroku",
   "addons": [
     "heroku-postgresql"
